@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylish.css">
+    <title>IIIT UNA | Academic Registration</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo_div"><img src="colllege.png" alt="Institute Logo" id="logo"></div>
+        <!-- Links -->
+        <!-- Link 1 - Home -->
+        <div class="nav_items">
+            <span class="nav_linkbox">
+                <a href="index.html" class="links">
+                    <p><i class="ri-home-2-fill"></i>&nbsp;Home</p>
+                </a>
+            </span>
+        </div>
+
+        <!-- Link 2 - academic -->
+        <div class="nav_items">
+            <span class="nav_linkbox" id="academic">
+                <a href="academic.html" class="links">
+                    <p><i class="ri-article-fill"></i>&nbsp;Academic Registration</p>
+                </a>
+            </span>
+        </div>
+
+        <!-- Link 3 - hostel -->
+        <div class="nav_items">
+            <span class="nav_linkbox" >
+                <a href="hostel.html" class="links" >
+                    <p><i class="ri-tools-fill"></i>&nbsp;Hostel Registration</p>
+                </a>
+            </span>
+        </div>
+
+
+        <!-- Link 4 - Contact -->
+        <div class="nav_items">
+            <span class="nav_linkbox">
+                <a href="contact.html" class="links">
+                    <p><i class="ri-phone-fill"></i>&nbsp;Contact</p>
+                </a>
+            </span>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <form action="mailto:clgweb.by.aryan@gmail.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Course Registration Form</legend>
+                    <table>
+                        <tr>
+                            <td> 
+                                <label for="name">Name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" id="name"placeholder="Name" required autofocus autocomplete="on">
+                            </td>
+
+                            <td>
+                                <label for="program">Program:</label>
+                            </td>
+                            <td>
+                                <select name="program" id="program" required>
+                                    <option value="btech">B.Tech</option>
+                                    <option value="mtech">M.Tech</option>
+                                    <option value="phd">P.h.D</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="rollnum">Roll No.:</label>
+                            </td>
+                            <td>
+                                <input type="number" name="rollnum" id="rollnum"placeholder="Roll No." required>
+                            </td>
+
+                            <td>
+                                <label for="branch">Branch:</label>
+                            </td>
+                            <td>
+                                <select name="branch" id="branch" required>
+                                    <option value="cse">CSE</option>
+                                    <option value="ece">ECE</option>
+                                    <option value="it">IT</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="semester">Semester:</label>
+                            </td>
+                            <td>
+                                <select name="semester" id="semester" required>
+                                    <option value="one">I</option>
+                                    <option value="two">II</option>
+                                    <option value="three">III</option>
+                                    <option value="four">IV</option>
+                                    <option value="five">V</option>
+                                    <option value="six">VI</option>
+                                    <option value="seven">VII</option>
+                                    <option value="eight">VIII</option>
+                                </select>
+                            </td>
+                            <td>
+                                <label for="proof">Proof of Payment:</label>
+                             </td>
+                             <td id="poof" >
+                                <input type="file" name="paymentproof" id="paymentproof">
+    
+                             </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td >
+                            <button type="submit" id="submit">Submit</button>
+                        </td>
+                        </tr>
+                    </table>
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy; IIIT UNA , Himachal Pradesh
+    </footer>
+</body>
+
+</html>

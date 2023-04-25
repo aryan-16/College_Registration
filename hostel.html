@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylish.css">
+    <title>IIIT UNA | Hostel Registration</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo_div"><img src="colllege.png" alt="Institute Logo" id="logo"></div>
+        <!-- Links -->
+        <!-- Link 1 - Home -->
+        <div class="nav_items">
+            <span class="nav_linkbox">
+                <a href="index.html" class="links">
+                    <p><i class="ri-home-2-fill"></i>&nbsp;Home</p>
+                </a>
+            </span>
+        </div>
+
+        <!-- Link 2 - academic -->
+        <div class="nav_items">
+            <span class="nav_linkbox">
+                <a href="academic.html" class="links">
+                    <p><i class="ri-article-fill"></i>&nbsp;Academic Registration</p>
+                </a>
+            </span>
+        </div>
+
+        <!-- Link 3 - hostel -->
+        <div class="nav_items">
+            <span class="nav_linkbox" id="hostelhead">
+                <a href="hostel.html" class="links" >
+                    <p><i class="ri-tools-fill"></i>&nbsp;Hostel Registration</p>
+                </a>
+            </span>
+        </div>
+
+
+        <!-- Link 4 - Contact -->
+        <div class="nav_items">
+            <span class="nav_linkbox">
+                <a href="contact.html" class="links">
+                    <p><i class="ri-phone-fill"></i>&nbsp;Contact</p>
+                </a>
+            </span>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <form action="mailto:clgweb.by.aryan@gmail.com" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Hostel Registration</legend>
+                    <table>
+                        <tr>
+                            <td> 
+                                <label for="name">Name:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" id="name" placeholder="Name"required autofocus autocomplete="on">
+                            </td>
+
+                            <td> 
+                                <label for="phonenum">Phone No.:</label>
+                            </td>
+                            <td>
+                                <input type="number" name="phonenum" id="phonenum" placeholder="Phone No."required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="rollnum">Roll No.:</label>
+                            </td>
+                            <td>
+                                <input type="number" name="rollnum" id="rollnum"placeholder="Roll No." required>
+                            </td>
+
+                            <td>
+                                <label for="date">Date of Arrival:</label>
+                            </td>
+                            <td>   
+                                <input type="date" name="date" id="date" placeholder="Date"required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="hostel">Hostel Name:</label>
+                            </td>
+                            <td>
+                                <select name="hostel" id="hostel" required>
+                                    <option value="Chitagni">CHITAGNI</option>
+                                    <option value="Bhutagni">BHUTAGNI</option>
+                                    <option value="Jatharagni">JATHARAGNI</option>
+                                </select>
+                            </td>
+                            <td>
+                                <label for="Room">Room Number:</label>
+                            </td>
+                            <td>
+                                <input type="number" name="Room" id="Room" placeholder="Room No."required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="mess">Mess:</label>
+                            </td>
+                            <td>
+                                <select name="mess" id="mess">
+                                    <option value="veg">VEG</option>
+                                    <option value="nonveg">NON-VEG</option>
+                                
+                                </select>
+                            </td>
+                            <td>
+                                <label for="advance">Mess Advance:</label>
+                            </td>
+                            <td>
+                                <input type="number" name="advance" id="advance" placeholder="Amount in Rs"required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                         <td>
+                            <label for="proof">Proof of Payment:</label>
+                         </td>
+                         <td id="poof" colspan="3">
+                            <input type="file" name="paymentproof" id="paymentproof" required>
+
+                         </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>
+                            <button type="submit" id="submit">Submit</button>
+                        </td>
+                        </tr>
+                    </table>
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy; IIIT UNA , Himachal Pradesh
+    </footer>
+</body>
+
+</html>

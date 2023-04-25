@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    background-color: gainsboro;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.global_para h1 {
+    font-size: 48px;
+}
+
+#global_para_pic{
+    -webkit-box-shadow: 0 0 8px #5d5d5d;
+        box-shadow: 0 0 8px #5d5d5d;
+}
+.rest{
+ clear: left;  
+ margin-top: 8em; 
+}
+header {
+    background-color: rgb(128, 196, 215);
+    display: grid;
+    width: 100%;
+    position: fixed;
+    grid-template-columns: 35% auto auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+
+.spacer {
+    width: 100%;
+    height: 110px;
+}
+
+.content {
+margin: 8em 2em 2em 2em;
+
+}
+
+#logo_div {
+    width: 100%;
+    text-align: left;
+    padding: 0.3em;
+}
+
+#logo {
+    height: 14vh;
+    margin: 3px 20px;
+}
+
+#cover_pic {
+    margin: 0.2%;
+    width: 99.6%;
+    border-radius: 10px;
+}
+
+#global_para_pic {
+    float: left;
+    margin: 1em 2em;
+    width: 20%;
+    border-radius: 10%;
+}
+.solutions h1{
+    text-align: center;
+}
+#iiit{
+    font-size: 3.5rem;
+    margin-bottom: 1.5em;
+}
+.nav_items {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    vertical-align: text-bottom;
+    font-weight: bold;
+    font-size: 110%;
+    margin: auto;
+}
+
+#hostelhead {
+    background-color: rgb(90, 150, 152);
+    box-shadow: 1px 2px 7px black;
+}
+#academic {
+    background-color: rgb(90, 150, 152);
+    box-shadow: 1px 2px 7px black;
+}
+#contact {
+    background-color: rgb(90, 150, 152);
+    box-shadow: 1px 2px 7px black;
+}
+#home {
+    background-color: rgb(90, 150, 152);
+    box-shadow: 1px 2px 7px black;
+}
+
+.nav_linkbox {
+    align-self: flex-end;
+    text-align: center;
+    width: 90%;
+    height: 50%;
+}
+
+.nav_linkbox:hover {
+    background-color: rgb(90, 150, 152);
+    transition-delay: 0.1s;
+    box-shadow: 1px 2px 7px black;
+}
+
+.links:hover {
+    color: black;
+}
+
+.nav_linkbox p {
+    margin: 16.5px;
+}
+
+a:link, a:active, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+.global_para {
+    margin: 0.5em;
+}
+
+
+.solutions {
+    background-color: rgba(201, 201, 201, 0.85);
+    border-radius: 1em;
+    margin: 2em;
+    padding: 2em;
+    text-align: justify;
+    font-size: 110%;
+}
+#homebody {
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        line-height: 1.6em;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+.effects h1,
+.solutions h1,
+.carb_cal h2 {
+    margin-top: 0.3em;
+    font-size: 200%;
+}
+
+.news_box {
+    background-color: rgba(187, 187, 187, 0.9);
+}
+
+.more_info_box,
+#submit,
+#reset {
+    color: white;
+    font-size: 110%;
+    font-weight: bolder;
+    width: 6.2em;
+    text-align: center;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(128, 196, 215);
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 0;
+}
+
+#reset {
+    background-color: rgb(196, 56, 56);
+    margin-left: 1em;
+}
+li {
+    margin-top: 0.5rem;
+}
+marquee{
+    display: absolute;
+}
+fieldset{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#web{
+   color: grey;
+}
+#reset:hover {
+    background-color: rgb(174, 38, 38);
+    -webkit-box-shadow: 0 0 8px #5d5d5d;
+        box-shadow: 0 0 8px #5d5d5d;
+}
+
+.more_info_box:hover,
+#submit:hover {
+    background-color: rgb(23, 108, 165);
+    -webkit-box-shadow: 0 0 8px #5d5d5d;
+        box-shadow: 0 0 8px #5d5d5d;
+}
+
+main {
+    padding: 1em;
+}
+
+.global_para h1,
+.contact_box h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.causes h2,
+.carb_cal h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.global_para p,
+.causes li {
+    font-size: 120%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.container {
+    margin-top: 2em;
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contact_box {
+    width: 28%;
+    text-align: center;
+    margin: 2em auto;
+    border: 4px solid rgb(136, 135, 135);
+    border-radius: 10px;
+    background-color: gainsboro;
+    padding: 2em;
+}
+
+.form_box {
+    margin: auto;
+    width: 85%;
+    text-align: left;
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="number"],
+input[type="option"],
+textarea,
+select {
+    
+    width: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.8em;
+    border: 2px solid rgb(136, 135, 135);
+    border-radius: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    /* margin-left: 1em; */
+    margin-right: 2em;
+}
+
+#paymentproof {
+    width: 27.25%;
+    background-color: white;
+}
+legend {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+table {
+    font-size: 120%;
+    width: 100%;
+}
+
+select {
+    width: 77.15%;
+}
+
+tr {
+    height: 15vh;
+}
+input[type="file"]:hover,
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="number"]:hover,
+textarea:hover,
+select:hover {
+    box-shadow: 1px 1px 9px rgb(104, 104, 104);
+}
+
+.btn {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2.5em;
+    margin: auto;
+}
